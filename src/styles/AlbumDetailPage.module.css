@@ -1,0 +1,43 @@
+.albumDetailPage {
+    padding: 2rem;
+    background-color: #fafafa;
+  }
+  
+  .albumDetailPage h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .albumDetailPage h2 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .photo {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .photo:hover {
+    transform: scale(1.05);
+  }
+  
+  .userLink {
+    color: #3f51b5;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .userLink:hover {
+    color: #303f9f;
+  }
